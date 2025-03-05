@@ -1,0 +1,9 @@
+{
+  "type": "folder",
+  "mapFileName": {},
+  "dir": "./extensions/${name}",
+  "inputs": {
+    "name": {}
+  },
+  "successMessage": "Extension created successfully."
+}
