@@ -26,7 +26,25 @@ Run the following command to create a new Shopify theme extension:
 npx @anikghosh256/kitty-cli@latest create extension --name [extension-name]
 ```
 
-Replace `[extension-name]` with your desired extension name.
+Replace `[extension-name]` with your desired
+
+### ⚡ Add Build Script
+
+Add the following script to your `package.json` to easily build your extension:
+
+```json
+"scripts": {
+  "ex:dev": "vite build --config extensions/[extension-name]/vite.config.js"
+}
+```
+
+Then, you can run:
+
+```sh
+npm run ex:dev
+```
+
+This will build the output JavaScript.
 
 ## 📌 Features
 

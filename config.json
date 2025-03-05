@@ -5,5 +5,5 @@
   "inputs": {
     "name": {}
   },
-  "successMessage": "Extension created successfully."
+  "successMessage": "Add ```vite build --config  extensions/tt/vite.config.js``` to your build script in package.json"
 }
